@@ -2,7 +2,11 @@ const cds = require('@sap/cds');
 
 module.exports = async function(){
 
-    this.on('hello', (req) => {
+    this.on('helloFunction', (req) => {
+        console.log("Hello Is called"+req.data.name);
+        return "hello World "+req.data.name;
+    })
+    this.on('helloAction', (req) => {
         console.log("Hello Is called"+req.data.name);
         return "hello World "+req.data.name;
     })
