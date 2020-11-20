@@ -1,5 +1,4 @@
 using { training.salesorder as salesorder } from '../schema/salesorder';
-using {training.clients as client } from '../schema/clients';
 
 namespace training.views;
 
