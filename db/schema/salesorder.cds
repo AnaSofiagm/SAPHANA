@@ -15,4 +15,5 @@ entity TblSalesOrderItem: Base{
     status: STATUS_TYPE;
     salesOrder: Association to TblSalesOrder;
     product: Association to TblProducts;
+    quantity: Integer; 
 }

@@ -7,3 +7,5 @@ type STATUS_TYPE: String(1) enum {
     OPEN = 'O';
     COMPLETED = 'C';
 }
+
+entity withTemporal { validFrom: DateTime; validTo: DateTime;}
